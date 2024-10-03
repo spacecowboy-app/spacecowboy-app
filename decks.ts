@@ -21,6 +21,30 @@ import DecksCollection from "./model/DecksCollection";
 
 const decks: Deck[] = [
     {
+        id: "143098ea-92d5-42e0-b2d3-1093895a6e37",
+        name: "Xmas",
+        type: "Fibonacci",
+        cards: [
+            { id: "86f80f2d-ebb6-4877-9c28-ef54c35dcbc2", value:"0", color: "marigold", image: "xmas/0candycane.png", font: "large", style: "value-image" },
+            { id: "b133a64e-27e4-4a9f-84a7-6a73147ac0e6", value:"1", color: "tangerine", image: "xmas/1ornament.png", font: "large", style: "value-image" },
+            { id: "72602692-f1f6-4be0-a4be-6400ec543896", value:"2", color: "tangerine", image: "xmas/2gingerbread.png", font: "large", style: "value-image" },
+            { id: "8b2064d0-bd83-4be8-a527-8aa13c34b50a", value:"3", color: "tangerine", image: "xmas/3stocking.png", font: "large", style: "value-image" },
+            { id: "e1d6ace6-2064-4460-9225-4e4ff2cbfdd6", value:"5", color: "coral", image: "xmas/5elf.png", font: "large", style: "value-image" },
+            { id: "28b1e00d-aeda-418c-9ad1-bd0c1eb6c58f", value:"8", color: "coral", image: "xmas/8sweater.png", font: "large", style: "value-image" },
+            { id: "0ab17306-1f2c-4386-ad0f-cd7666299f43", value:"13", color: "coral", image: "xmas/12present.png", font: "large", style: "value-image" },
+            { id: "99b5b8f9-9a18-4cf7-91a0-444684886af3", value:"21", color: "bubblegum", image: "xmas/21reindeer.png", font: "large", style: "value-image" },
+            { id: "e5e0eb69-d267-464c-b292-455c87890cd3", value:"34", color: "bubblegum", image: "xmas/34xmastree.png", font: "large", style: "value-image" },
+            { id: "f0ee5dcd-e4a7-43cc-ac55-1ad7ae8323cc", value:"\u221e", color: "teal", image: "xmas/infinitysled.png", font: "large", style: "value-image" },
+            { id: "a5d108d0-a8cc-4bad-92bd-29942a5e0f2c", value:"no idea", color: "ocean", image: "xmas/idksanta.png", font: "small", style: "value-image" },
+            { id: "0c871809-883c-429e-8776-81f4e80abc1e", value:"break", color: "jade", image: "xmas/pausewine.png", font: "small", style: "value-image" },
+        ],
+        flipped: { id: "cb6488c1-4b53-4553-a40d-b500475a4770", color: "darkgray", image: "xmas/flipped.png", style: "centered-image" },
+        notflipped: { id: "e61bd883-9671-4138-a95a-d88f42894116", color: "lightgray", image: "xmas/notflipped.png", style: "centered-image" },
+        decktop: { id: "d8c283f5-8bb7-4226-b470-efc9e12d071f", value:"xmas", color: "marigold", image: "xmas/idksanta.png", font: "small", style: "image-value" },
+        noVote: { id: "9acbb51b-cd74-4462-b94b-04e533b0c99e" },
+        hiddenVote: { id: "f7867b00-7622-4ba5-895f-3b419729092f" }
+    },
+    {
         id: "5f007d6a-5ae6-4158-8975-87b6f3364d97",
         name: "High Noon",
         type: "Fibonacci",
