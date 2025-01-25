@@ -20,6 +20,7 @@ import DecksCollection from "./model/DecksCollection";
 
 
 const decks: Deck[] = [
+/*
     {
         id: "143098ea-92d5-42e0-b2d3-1093895a6e37",
         name: "Xmas",
@@ -43,6 +44,31 @@ const decks: Deck[] = [
         decktop: { id: "d8c283f5-8bb7-4226-b470-efc9e12d071f", value:"xmas", color: "marigold", image: "xmas/idksanta.png", font: "small", style: "image-value" },
         noVote: { id: "9acbb51b-cd74-4462-b94b-04e533b0c99e" },
         hiddenVote: { id: "f7867b00-7622-4ba5-895f-3b419729092f" }
+    },
+*/
+    {
+        id: "0e76b80e-587c-4406-9a38-a74ae7010640",
+        name: "Halloween",
+        type: "Fibonacci",
+        cards: [
+            { id: "9346b31a-be6a-4440-85b6-b36500be1ba7", value:"0", color: "marigold", image: "halloween/halloweencandy.png", font: "large", style: "value-image" },
+            { id: "8d13a14c-68b6-4a54-a1ac-b48d70485e11", value:"1", color: "tangerine", image: "halloween/1witchhat.png", font: "large", style: "value-image" },
+            { id: "6bf69024-a7ce-47ef-96ff-bc6669437dec", value:"2", color: "tangerine", image: "halloween/2bat.png", font: "large", style: "value-image" },
+            { id: "dcaa67e1-7f42-4c6f-9cd5-57a552357d59", value:"3", color: "tangerine", image: "halloween/3pumpkin.png", font: "large", style: "value-image" },
+            { id: "f9b97479-3ed0-4157-9e1d-a933ceed4000", value:"5", color: "coral", image: "halloween/5cat.png", font: "large", style: "value-image" },
+            { id: "fb85ff49-6751-46b2-b776-b913cd11e2e2", value:"8", color: "coral", image: "halloween/8ghost.png", font: "large", style: "value-image" },
+            { id: "66d15038-a4a7-4fcb-aa91-03fb8541dc8b", value:"13", color: "coral", image: "halloween/13coffin.png", font: "large", style: "value-image" },
+            { id: "9a5dae58-6789-4034-bdb5-278585029cb4", value:"21", color: "bubblegum", image: "halloween/21franknstein.png", font: "large", style: "value-image" },
+            { id: "e2747b74-59c4-48a1-895f-a051e1db5d1c", value:"34", color: "bubblegum", image: "halloween/34hauntedhouse.png", font: "large", style: "value-image" },
+            { id: "a130be59-8128-4ed3-b4f3-959db59ef3f1", value:"\u221e", color: "teal", image: "halloween/infinitydeath.png", font: "large", style: "value-image" },
+            { id: "a6e96093-1eb3-4108-9930-b3f89a684f46", value:"no idea", color: "ocean", image: "halloween/graveidk.png", font: "small", style: "value-image" },
+            { id: "47b434f6-f4e7-472c-b245-cccc5e67049f", value:"break", color: "jade", image: "halloween/zbrew.png", font: "small", style: "value-image" }
+        ],
+        flipped: { id: "08ede683-ba82-44f7-8130-be23cda62920", color: "darkgray", image: "flipped.png", style: "centered-image" },
+        notflipped: { id: "3c8eb800-7843-4d0c-b151-c312cbed9877", color: "lightgray", image: "notflipped.png", style: "centered-image" },
+        decktop: { id: "b5fd4e69-5ba7-4b3e-8e8b-f42d72f83dfe", value:"halloween", color: "marigold", image: "halloween/pumpkindeck.png", font: "small", style: "image-value" },
+        noVote: { id: "a981f68f-7ef5-47cd-a55a-ef1048a5e778" },
+        hiddenVote: { id: "d7e56a12-3d59-4a10-9991-87aac17bf43a" },
     },
     {
         id: "5f007d6a-5ae6-4158-8975-87b6f3364d97",
